@@ -1,0 +1,20 @@
+{
+    "name": "r3born/r3mote",
+    "description": "JSON RPC 2.0 microframework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Davide",
+            "email": "carlosdavide@r3born.com"
+        }
+    ],
+    "require": {
+        "justinrainbow/json-schema": "dev-master",
+        "slim/slim": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "R3born\\R3mote\\": "lib/"
+        }
+    }
+}
